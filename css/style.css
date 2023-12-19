@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(1, 116, 96);
+}
+.edit-user {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.profile-pic {
+  padding: 1vh;
+  margin-bottom: 1vh;
+  background-color: darkgrey;
+  text-align: center;
+  border-radius: 3vh;
+  margin-top: 1vh;
+}
+
+.user-pic {
+  width: 20vw;
+  margin: 0 auto;
+}
+
+.personal-info {
+  padding: 5vh;
+  margin-bottom: 4vh;
+  padding-top: 1vh;
+  background-color: darkgrey;
+  color: #fff;
+  border-radius: 3vh;
+  margin-top:1vh;
+}
+
+.heading {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 10px;
+}
+
+.save-edit-btn {
+  background-color: orangered;
+  border: none;
+  color: #fff;
+}
+
+.personal-info {
+  margin-left: 3vh
+}
+
+section{
+  height: 100vh;
+  margin-bottom: 5vh;
+}
