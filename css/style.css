@@ -1,13 +1,8 @@
-html::-webkit-scrollbar{
-  width: 2vw;
+body {
   background-color: rgb(1, 116, 96);
 }
-html::-webkit-scrollbar-thumb{
-  background-color: rgb(248,249,250);
-  z-index: -1;
-}
-body{
-  background-color: rgb(1, 116, 96);
+.row{
+  margin-top:3vh;
 }
 .edit-user {
   margin-top: 0;
@@ -36,7 +31,7 @@ body{
   background-color: darkgrey;
   color: #fff;
   border-radius: 3vh;
-  margin-top:1vh;
+  margin-top: 1vh;
   margin-left: 3vh
 }
 
@@ -45,7 +40,26 @@ body{
   padding-bottom: 10px;
 }
 
-section{
+section {
   height: 100vh;
   margin-bottom: 5vh;
+}
+
+.botonColor {
+  width: 15vh;
+  height: 3vw;
+  background-color: rgb(1, 116, 96);
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  margin-top: 3vh;
+}
+
+.botonColor:hover{
+  background-color: gray;
+}
+.imgUser{
+  border-radius: 3vw;
 }

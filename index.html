@@ -45,12 +45,12 @@
         <section id="sec1">
             <div class="container edit-user">
                 <div class="row">
-                    <div class="col-md-6 col-sm-8 col-lg-4 rounded mx-auto d-block">
+                    <div class="col-md-5 col-sm-12 col-lg-4 rounded mx-auto d-block">
                         <div class="profile-pic">
-                            <img class="img-responsive user-pic" src="./asset/user-icon.jpg" alt="" />
+                            <img class="img-thumbnail imgUser" src="./asset/user-icon.jpg" alt="" />
                         </div>
                     </div>
-                    <div class="col-md-10 col-lg-8 col-sm-12 mx-auto">
+                    <div class="col-md-8 col-lg-8 col-sm-12 mx-auto">
                         <div class="personal-info">
                             <h3 class="heading">Nombre</h3>
                             <div class="mb-3">
@@ -68,10 +68,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-10 col-lg-6 col-sm-12">
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 col-sm-12 mx-auto">
                         <div class="personal-info">
                             <h3 class="heading">Contraseña</h3>
-
                             <form class="form-horizontal" role="form">
                                 <div class="form-group">
                                     <label class="control-label col-sm-3" for="firstname">Contraseña
@@ -97,77 +98,101 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-10 col-lg-6 col-sm-12 mx-auto">
-                        <div class="personal-info">
-                            <h3 class="heading">Bio</h3>
-                            <form class="form-horizontal" role="form">
-                                <div class="form-group">
-                                    <label class="control-label col-sm-3" for="bio">Sobre ti:</label>
-                                    <div class="col-sm-9">
-                                        <textarea class="form-control" rows="4"></textarea>
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="sec2">
-            <div class="container edit-user">
-            <div class="row">
-                <div class="col-md-10 col-lg-6 col-sm-12 mx-auto">
+                <div class="col-md-12 col-lg-6 col-sm-12 mx-auto">
                     <div class="personal-info">
-                        <h3 class="heading">Informacion personal</h3>
+                        <h3 class="heading">Bio</h3>
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Email:</label>
-                                <div class="col-sm-9">
-                                    <input type="name" class="form-control" id="email" value="gasd@gmail.com">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="address">Direccion: </label>
-                                <div class="col-sm-9">
-                                    <input type="name" class="form-control" id="pwd" value="Ruta 3">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="address">Escuela:</label>
-                                <div class="col-sm-9">
-                                    <input type="name" class="form-control" id="pwd" value="UTU">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="address">Año:</label>
-                                <div class="col-sm-9">
-                                    <input type="name" class="form-control" id="pwd" value="2023">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="address">Titulo</label>
-                                <div class="col-sm-9">
-                                    <input type="name" class="form-control" id="pwd" value="Desarrollador">
+                                <label class="control-label col-sm-3" for="bio">Sobre ti:</label>
+                                <div class="col-sm-12 col-lg-12 col md-12">
+                                    <textarea class="form-control"
+                                        rows="5">Este enigmático personaje se unió a los Power Rangers en una misión especial, donde se enfrentaron a un enemigo que amenazaba el equilibrio del multiverso. Los Simpson, sorprendidos por su valentía y astucia, se unieron a él para ayudar a salvar el día</textarea>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-10 col-lg-6 col-sm-12 mx-auto">
-                    <div class="personal-info">
-                        <h3 class="heading">Informacion personal</h3>
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                </div>
             </div>
-        </div>
+        </section>
+        <section id="sec2">
+                <div class="container edit-user">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6 mx-auto">
+                            <div class="personal-info">
+                                <h3 class="heading">Informacion personal</h3>
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3">Celular:</label>
+                                        <div class="col-sm-9">
+                                            <input type="tel" class="form-control" value="093231232">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="address">Direccion: </label>
+                                        <div class="col-sm-9">
+                                            <input type="name" class="form-control" id="pwd" value="Ruta 3">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="address">Escuela:</label>
+                                        <div class="col-sm-9">
+                                            <input type="date" class="form-control" id="pwd" value="UTU">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="address">Año:</label>
+                                        <div class="col-sm-9">
+                                            <input type="name" class="form-control" id="pwd" value="2023">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="address">Titulo</label>
+                                        <div class="col-sm-9">
+                                            <input type="name" class="form-control" id="pwd" value="Desarrollador">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 mx-auto">
+                            <div class="personal-info">
+                                <h3 class="heading">Informacion personal</h3>
+                                <label class="control-label col-sm-3 col-lg-5 col-md-6" for="address">Tipo de cuenta:
+                                </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Personal</option>
+                                    <option value="1">Laboral</option>
+                                    <option value="2">Profesional</option>
+                                    <option value="3">Empresarial</option>
+                                </select>
+                                <label class="control-label col-sm-3 col-lg-5 col-md-6" for="address">Departamento de
+                                    residencia: </label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Escoja un departamento</option>
+                                    <option value="valor1">Artigas</option>
+                                    <option value="valor2">Canelones</option>
+                                    <option value="valor3">Cerro Largo</option>
+                                    <option value="valor4">Colonia</option>
+                                    <option value="valor5">Durazno</option>
+                                    <option value="valor6">Flores</option>
+                                    <option value="valor7">Florida</option>
+                                    <option value="valor8">Lavalleja</option>
+                                    <option value="valor9">Maldonado</option>
+                                    <option value="valor10">Montevideo</option>
+                                    <option value="valor11">Paysandu</option>
+                                    <option value="valor12">Rio Negro</option>
+                                    <option value="valor13">Rivera</option>
+                                    <option value="valor14">Rocha</option>
+                                    <option value="valor15">Salto</option>
+                                    <option value="valor16">San Jose</option>
+                                    <option value="valor17">Soriano</option>
+                                    <option value="valor18">Tacuarembo</option>
+                                    <option value="valor19">Treinta y Tres</option>
+                                </select>
+                            </div>
+                        </div>
+                </div>
         </section>
         <footer>
 
