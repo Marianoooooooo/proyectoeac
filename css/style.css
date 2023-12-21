@@ -1,12 +1,5 @@
 body {
   background-color: rgb(1, 116, 96);
-}
-.row{
-  margin-top:3vh;
-}
-.edit-user {
-  margin-top: 0;
-  margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
 }
 
